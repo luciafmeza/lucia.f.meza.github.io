@@ -54,11 +54,17 @@ p span {
 .wrapper {
   width: 100%;
   margin: 0 auto;
--webkit-box-sizing:border-box;
--moz-box-sizing:border-box;
-box-sizing:border-box;
- }
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
 
+}
+.first{
+  background-image: url(../images/bg-header.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
 
 #oil .wrapper {
   background:  url(../images/lavender2.jpg) 4.16667% center no-repeat;
@@ -67,9 +73,15 @@ box-sizing:border-box;
  }
 
 .name{
-  font-size: 100px;
+  font-size: 130px;
   color:#033159;
   margin-bottom: 50px;
+  font-family: 'Lobster', cursive;
+}
+.sub-name{
+  font-size: 60px;
+  color:#033159;
+  margin-bottom: 20px;
   font-family: 'Lobster', cursive;
 }
 .inline{
@@ -102,24 +114,29 @@ box-sizing:border-box;
   background-color: rgba(7,196,215,0.6);
   color: #fff;
   font-weight: bold;
-  font-size:19px;
-  padding: 24.6px 40px;
+  padding: 25px 40px;
   text-decoration: blink;
 }
 .icons-header{
-  font-size: 70px;
+  font-size: 50px;
   color:#033159;
   
 }
 .icons{
-  margin-right: 60px;
+  margin-right: 30px;
+  margin-bottom: 150px;
 }
 .icons:first-child i{
   margin-left: 20px;
 }
-
 .icons, .icons-header:hover{
   color: #01718C;
+}
+.header-contenedor{
+  height: 670px;
+}
+.nav{
+  width: 100%;
 }
 .habilities{
   width: 70%;
@@ -145,7 +162,7 @@ box-sizing:border-box;
 section:after, header:after {
   content: "";
   display: block;
-  height: 400px;
+  height: 300px;
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -181,7 +198,7 @@ footer {
 .wrapper {
     width:1200px; }
 	header .wrapper {
-	  padding: 90px 50px 100px 380px; }
+	  padding: 100px 0; }
 
 	#oil .wrapper {
 	  padding: 120px 50px 120px 600px;
