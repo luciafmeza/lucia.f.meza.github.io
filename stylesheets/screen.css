@@ -74,7 +74,7 @@ p span {
 
 .name{
   font-size: 130px;
-  color:#033159;
+  color:#01718C;
   margin-bottom: 50px;
   font-family: 'Lobster', cursive;
 }
@@ -95,26 +95,26 @@ p span {
   padding-left: 20px;
 }
 .menu-element{
-  padding: 20px 20px;
+  padding: 10px 20px;
 }
 
 .float-left{
   float: left;
 }
-.list-menu{
+#list-menu{
   background-color: rgba(3,49,89,0.7);
 }
 .button-menu{
-  padding: 22px 40px;
+  padding: 10px 40px;
   color:#fff;
-  font-weight: bold;
   text-decoration: none;
+  font-family: 'Bungee Inline', cursive;
 }
 .button-menu:hover{
   background-color: rgba(7,196,215,0.6);
   color: #fff;
   font-weight: bold;
-  padding: 25px 40px;
+  padding: 5.4px 40px;
   text-decoration: blink;
 }
 .icons-header{
@@ -137,6 +137,15 @@ p span {
 }
 .nav{
   width: 100%;
+}
+.title{
+  font-family: 'Bungee Inline', cursive;
+}
+.content2{
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
 }
 .habilities{
   width: 70%;
@@ -174,16 +183,19 @@ section:after, header:after {
       background-attachment: scroll; } }
 
 header:after {
-  background-image: url(../images/blu.jpg); }
+  background-image: url(../images/bg-mar.jpg); }
 
 #oil:after {
-  background-image: url(../images/blu2.jpg); }
+  background-image: url(../images/inside1.1.jpg); }
 
 #culinary:after {
-  background-image: url(../images/blu3.jpg); }
+  background-image: url(../images/inside2.jpg); }
 
 #dried:after {
-  background-image: url(../images/blu4.jpg); }
+  background-image: url(../images/bg-3.jpg); }
+
+#last:after {
+  background-image: url(../images/bg-last.jpg); }
 
 footer {
   background: lavender;
@@ -209,5 +221,8 @@ footer {
   #dried .wrapper{
     padding: 100px 0;
   }
+  #last .wrapper {
+    padding: 100px 0;
+   }
 }
 

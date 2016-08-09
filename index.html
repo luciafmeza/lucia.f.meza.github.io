@@ -10,6 +10,14 @@
 <link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen" title="no title" charset="utf-8">
 <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Indie+Flower" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.sticky.js"></script>
+  <script>
+    $(window).load(function(){
+      $("#list-menu").sticky({ topSpacing: 0 });
+    });
+  </script>
 </head>
  
 <body>
@@ -23,7 +31,7 @@
 		<a class="icons" href="#"><i class="ion-social-twitter icons-header"></a></i>
 	</div>
 	<div class="nav">
-		<ul class="list-menu text-center">
+		<ul id="list-menu" class="text-center">
 			<li class="inline menu-element float-left"><a class="button-menu" href=""><img src=""></a></li>
 			<li class="inline menu-element"><a class="button-menu" href="">SOBRE MI</a></li>
 			<li class="inline menu-element"><a class="button-menu" href="">PROYECTOS</a></li>
@@ -34,15 +42,15 @@
 </header>
 <section class="content" id="oil">
 	<div class="wrapper">
-	<p><span>Sobre Mi</span></p>
-	<p>Me gustan los retos, aprender neuvas cosas y cuento con la facilidad para hacerlo. Tengo capacidad
+	<p><span class="title">Sobre Mi</span></p>
+	<p class="content2">Me gustan los retos, aprender neuvas cosas y cuento con la facilidad para hacerlo. Tengo capacidad
 	 de trabajo en equipo, trabajo bajo presión. Considero que el compañerismo es importante para lograr las metas, así como asumir el liderazgo en diversos temas. Interés especial en todo lo relacionado con tecnologia.</p>
 	</div>
 
 </section>
 <section class="content " id="culinary">
 	<div class="wrapper text-center">
-			<p class="marbot"><span>Habilidades</span> </p>
+			<p class="marbot"><span class="title">Habilidades</span> </p>
 	<div class="container text-center">
 		<div class="row">
 			<div class="col-md-4">
@@ -82,7 +90,7 @@
 	
 <section class="content " id="dried">
 	<div class="wrapper">
-	<p><span>Proyectos</span> </p>
+	<p><span class="title">Proyectos</span> </p>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -108,15 +116,15 @@
 	
 	</div>
 </section>
-<section class="content " id="oil">
+<section class="content " id="last">
 	<div class="wrapper">
-	<p><span>Contactame</span> </p>
+	<p><span class="title">Contactame</span> </p>
 	
 	</div>
 </section>
 <footer>
  	<div class=wrapper>
-		 "From love for lavender" has been built for the tutorial purpose, exclusively for <a href="http://pepsized.com">Pepsized</a>. Copyright &copy; 2012 <a href="http://pehaa.com">PeHaa</a>.
+		 <p >Lucia Flores</p>. Copyright &copy; 2016.
 	</div>
 </footer>
 
