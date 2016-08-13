@@ -51,31 +51,17 @@ h1 {
 p span {
   font-size: 1.875em;  }
 
-.wrapper {
-  width: 100%;
-  margin: 0 auto;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
 
-}
 .first{
   background-image: url(../images/bg-header.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 
 }
-
-#oil .wrapper {
-  background:  url(../images/lavender2.jpg) 4.16667% center no-repeat;
-  padding: 10% 4.16667% 10% 50%;
-  background-size: 41.66667% auto;
- }
-
 .name{
   font-size: 130px;
   color:#01718C;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-family: 'Lobster', cursive;
 }
 .sub-name{
@@ -95,9 +81,8 @@ p span {
   padding-left: 20px;
 }
 .menu-element{
-  padding: 10px 20px;
+  padding: 18px 20px;
 }
-
 .float-left{
   float: left;
 }
@@ -109,22 +94,23 @@ p span {
   color:#fff;
   text-decoration: none;
   font-family: 'Bungee Inline', cursive;
+  font-size: 17px;
 }
 .button-menu:hover{
   background-color: rgba(7,196,215,0.6);
   color: #fff;
   font-weight: bold;
-  padding: 5.4px 40px;
+  padding: 8px 40px;
   text-decoration: blink;
 }
 .icons-header{
   font-size: 50px;
   color:#033159;
-  
 }
 .icons{
   margin-right: 30px;
   margin-bottom: 150px;
+  margin-top: 30px;
 }
 .icons:first-child i{
   margin-left: 20px;
@@ -133,7 +119,7 @@ p span {
   color: #01718C;
 }
 .header-contenedor{
-  height: 670px;
+  height: 612px;
 }
 .nav{
   width: 100%;
@@ -198,7 +184,7 @@ header:after {
   background-image: url(../images/bg-last.jpg); }
 
 footer {
-  background: lavender;
+  background-color: rgba(0,0,0,0.4);
   padding: 8.33333% 3.33333%;
   text-align: center; }
 
@@ -213,7 +199,7 @@ footer {
 	  padding: 100px 0; }
 
 	#oil .wrapper {
-	  padding: 120px 50px 120px 600px;
+	  padding: 100px 0;
 	 }
   #culinary .wrapper{
     padding: 100px 0;
@@ -225,4 +211,7 @@ footer {
     padding: 100px 0;
    }
 }
-
+.contacto{
+  border: 1px solid #000;
+  border-style:dotted solid double dashed;
+}

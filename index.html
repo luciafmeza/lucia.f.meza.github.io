@@ -6,11 +6,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lucia Flores</title>
 <link href='http://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen" title="no title" charset="utf-8">
 <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Indie+Flower" rel="stylesheet">
+<link rel="stylesheet" href="stylesheets/imagehover.min.css">
+<link rel="stylesheet" type="text/css" href="_shared/css/style.css">
+<link rel="stylesheet" type="text/css" href="css/jcarousel.responsive.css">
+<link rel="stylesheet" href="css/ionicons.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script type="text/javascript" src="vendor/jquery/jquery.js"></script>
+        <script type="text/javascript" src="dist/jquery.jcarousel.min.js"></script>
+
+        <script type="text/javascript" src="js/jcarousel.responsive.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   <script type="text/javascript" src="jquery.sticky.js"></script>
   <script>
@@ -21,8 +28,8 @@
 </head>
  
 <body>
-<header class=" content first">
-	<div class="wrapper text-center header-contenedor">
+<header class="first">
+	<div class="container text-center header-contenedor">
 		<h1 class="name">Lucia Flores</h1>
 		<h4 class="sub-name">Front-End Developer</h4>
 		<a class="icons" href="#"><i class="ion-social-github icons-header"></a></i>
@@ -41,18 +48,21 @@
 	</div>
 </header>
 <section class="content" id="oil">
-	<div class="wrapper">
-	<p><span class="title">Sobre Mi</span></p>
-	<p class="content2">Me gustan los retos, aprender neuvas cosas y cuento con la facilidad para hacerlo. Tengo capacidad
-	 de trabajo en equipo, trabajo bajo presión. Considero que el compañerismo es importante para lograr las metas, así como asumir el liderazgo en diversos temas. Interés especial en todo lo relacionado con tecnologia.</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6"></div>
+			<div class="col-md-6">
+				<p><span class="title">Sobre Mi</span></p>
+				<p class="content2">Me gustan los retos, aprender nuevas cosas y cuento con la facilidad para hacerlo. Tengo capacidad
+	 			de trabajo en equipo, trabajo bajo presión. Considero que el compañerismo es importante para lograr las metas, así como asumir el liderazgo en diversos temas. Interés especial en todo lo relacionado con tecnologia.</p>
+			</div>
+		</div>
 	</div>
-
 </section>
-<section class="content " id="culinary">
-	<div class="wrapper text-center">
-			<p class="marbot"><span class="title">Habilidades</span> </p>
+<section id="culinary">
 	<div class="container text-center">
 		<div class="row">
+			<p class="marbot"><span class="title">Habilidades</span> </p>
 			<div class="col-md-4">
 				<ul class="marleft">
 					<li>
@@ -84,49 +94,107 @@
 				</ul>
 			</div>
 		</div>
-	</div> 
+	</div>
+</section>	
+<section id="dried">
+	<div class="container">
+		<p><span class="title text-center">Proyectos</span> </p>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="jcarousel-wrapper">
+	            	<div class="jcarousel">
+	                	<ul>
+	                    	<li class="project1">
+	                    		<figure class="imghvr-zoom-out-flip-horiz">
+										<img class="img-responsive" src="images/proyecto1.png" alt="example-image">
+										<figcaption>
+										<h3 class="ih-fade-down ih-delay-sm ">Flatness</h3>
+										<p class="ih-zoom-in ih-delay-md">
+	  										<i>"I have the simplest tastes, I am always satisfied with the best."</i>
+										</p>
+										<a class="ih-fade-up ih-delay-lg button" href="#">Read More</a>
+										</figcaption>
+										<a href="#"></a>
+								</figure>
+	                    	</li>
+	                    	<li class="project2">
+	                    		<figure class="imghvr-zoom-out-flip-horiz">
+										<img class="img-responsive" src="images/proyecto2.png" alt="example-image">
+										<figcaption>
+										<h3 class="ih-fade-down ih-delay-sm ">Escuela de Danza</h3>
+										<p class="ih-zoom-in ih-delay-md">
+	  										<i>"I have the simplest tastes, I am always satisfied with the best."</i>
+										</p>
+										<a class="ih-fade-up ih-delay-lg button" href="#">Read More</a>
+										</figcaption>
+										<a href="#"></a>
+								</figure>
+	                    	</li>
+	                    	<li class="project3">
+	                    		<figure class="imghvr-zoom-out-flip-horiz">
+										<img class="img-responsive" src="images/proyecto3.png" alt="example-image">
+										<figcaption>
+										<h3 class="ih-fade-down ih-delay-sm ">Primes Themes</h3>
+										<p class="ih-zoom-in ih-delay-md">
+	  										<i>"I have the simplest tastes, I am always satisfied with the best."</i>
+										</p>
+										<a class="ih-fade-up ih-delay-lg button" href="#">Read More</a>
+										</figcaption>
+										<a href="#"></a>
+								</figure>
+	                    	</li>
+	                    	<li class="project4">
+	                    		<figure class="imghvr-zoom-out-flip-horiz">
+										<img class="img-responsive" src="images/proyecto4.png" alt="example-image">
+										<figcaption>
+										<h3 class="ih-fade-down ih-delay-sm ">The Dashboard</h3>
+										<p class="ih-zoom-in ih-delay-md">
+	  										<i>"I have the simplest tastes, I am always satisfied with the best."</i>
+										</p>
+										<a class="ih-fade-up ih-delay-lg button" href="#">Read More</a>
+										</figcaption>
+										<a href="#"></a>
+								</figure>
+	                    	</li>
+	                    	<li class="project5">
+	                    		<figure class="imghvr-zoom-out-flip-horiz">
+										<img class="img-responsive" src="images/proyecto5.png" alt="example-image">
+										<figcaption>
+										<h3 class="ih-fade-down ih-delay-sm ">Accesories Fashion</h3>
+										<p class="ih-zoom-in ih-delay-md">
+	  										<i>"I have the simplest tastes, I am always satisfied with the best."</i>
+										</p>
+										<a class="ih-fade-up ih-delay-lg button" href="#">Read More</a>
+										</figcaption>
+										<a href="#"></a>
+								</figure>
+	                    	</li>
+	                  	</ul>
+	            	</div>
+
+	            	<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+	            	<a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
+	            	<p class="jcarousel-pagination"></p>
+	        	</div>
+			</div>	
+		</div>
 	</div>
 </section>
-	
-<section class="content " id="dried">
-	<div class="wrapper">
-	<p><span class="title">Proyectos</span> </p>
+<section id="last">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+				<p><span class="title">Contactame</span> </p>
+			<div class="col-md-6">
+				<div class="contacto">
+					<p>Email: lucia.f.mez@gmail.com</p>
+				</div>
+			</div>
+			<div class="col-md-6">
 				
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				
-			</div>
-		</div>
-	</div>
-	
+		</div>	
 	</div>
 </section>
-<section class="content " id="last">
-	<div class="wrapper">
-	<p><span class="title">Contactame</span> </p>
-	
-	</div>
-</section>
-<footer>
- 	<div class=wrapper>
-		 <p >Lucia Flores</p>. Copyright &copy; 2016.
-	</div>
-</footer>
-
 </body>
 </html>
