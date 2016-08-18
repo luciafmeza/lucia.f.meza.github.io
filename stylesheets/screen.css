@@ -61,14 +61,21 @@ p span {
 .name{
   font-size: 130px;
   color:#01718C;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-family: 'Lobster', cursive;
 }
 .sub-name{
   font-size: 60px;
   color:#033159;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-family: 'Lobster', cursive;
+}
+.seccion1{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.miFoto{
+  padding-left: 170px;
 }
 .inline{
   display: inline-block;
@@ -120,18 +127,21 @@ p span {
 }
 .header-contenedor{
   height: 612px;
+  padding-top: 100px;
+
 }
 .nav{
   width: 100%;
 }
 .title{
   font-family: 'Bungee Inline', cursive;
+  padding-top: 50px;
 }
 .content2{
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 40px;
 }
 .habilities{
   width: 70%;
@@ -150,6 +160,9 @@ p span {
 }
 .marleft{
   margin-left: 90px;
+}
+.martop{
+  margin-top: 70px;
 }
 .marbot{
   margin-bottom: 70px;
@@ -196,7 +209,7 @@ footer {
 .wrapper {
     width:1200px; }
 	header .wrapper {
-	  padding: 100px 0; }
+	  padding: 200px 0; }
 
 	#oil .wrapper {
 	  padding: 100px 0;
@@ -212,6 +225,11 @@ footer {
    }
 }
 .contacto{
-  border: 1px solid #000;
+  border: 4px solid #000;
   border-style:dotted solid double dashed;
+  padding: 40px 8px;
+  font-size: 35px;
+  width: 50%;
+  margin-left:275px;
+  margin-top: 20px;
 }
